@@ -13,8 +13,10 @@ To load script into Cobalt Strike, use powershell-import xx.ps1
 To load script into powershell, use . .\xx.ps1  
 Taken from https://github.com/PowerShellMafia/PowerSploit
 
-## Winpeas in PEAS-NG
+## Winpeas in PEASS-ng
 Couldn't compile EXE, .NET version might be too old. Use BAT or PS1 instead.  
+Should just need winPEAS folder only.  
+Taken from https://github.com/carlospolop/PEASS-ng/tree/master
 
 ## PrivKit
 Cobalt Strike BOF for priv esc checking.  

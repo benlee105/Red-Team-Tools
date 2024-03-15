@@ -1,2 +1,0 @@
-# RTTools
-Red Teaming Tools

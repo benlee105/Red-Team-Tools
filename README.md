@@ -1,5 +1,4 @@
-# RTTools
-Red Teaming Tools
+# Red Team Tools
 
 ## Seatbelt
 Seatbelt EXE compiled, look for it in "Seatbelt Compiled" folder.

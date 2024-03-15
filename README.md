@@ -27,8 +27,11 @@ TrustedSec's BOFs for post-exploitation.
 Taken from https://github.com/trustedsec/CS-Remote-OPs-BOF
 
 ## Rubeus
-Placeholder
+Placeholder  
 
 ## Rubeus in BOF
 Rubeus in BOF format.  
 Taken from https://github.com/RalfHacker/Kerbeus-BOF
+
+## More BOFs
+Refer to URL for more useful BOFs - https://github.com/wsummerhill/C2_RedTeam_CheatSheets/blob/main/CobaltStrike/BOF_Collections.md

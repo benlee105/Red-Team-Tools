@@ -27,7 +27,8 @@ TrustedSec's BOFs for post-exploitation.
 Taken from https://github.com/trustedsec/CS-Remote-OPs-BOF
 
 ## Rubeus
-Placeholder  
+Seatbelt EXE compiled, unzip and you'll immediately see Rubeus.exe.  
+Taken from https://github.com/GhostPack/Rubeus
 
 ## Rubeus in BOF
 Rubeus in BOF format.  

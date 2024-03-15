@@ -27,12 +27,24 @@ TrustedSec's BOFs for post-exploitation.
 Taken from https://github.com/trustedsec/CS-Remote-OPs-BOF
 
 ## Rubeus
-Seatbelt EXE compiled, unzip and you'll immediately see Rubeus.exe.  
+Rubeus EXE compiled, unzip and you'll immediately see Rubeus.exe.  
 Taken from https://github.com/GhostPack/Rubeus
 
 ## Rubeus in BOF
 Rubeus in BOF format.  
 Taken from https://github.com/RalfHacker/Kerbeus-BOF
+
+## Outflank C2 BOFs
+Contains some BOFs that could be useful.  
+Taken from https://github.com/outflanknl/C2-Tool-Collection?tab=readme-ov-file
+
+## Certipy
+No files here. Install using python command "pip3 install certipy-ad"  
+Taken from https://github.com/ly4k/Certipy
+
+## Certify
+Couldn't compile, missing Nuget dependency?  
+Taken from https://github.com/GhostPack/Certify
 
 ## More BOFs
 Refer to URL for more useful BOFs - https://github.com/wsummerhill/C2_RedTeam_CheatSheets/blob/main/CobaltStrike/BOF_Collections.md

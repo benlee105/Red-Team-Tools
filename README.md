@@ -59,8 +59,8 @@ Taken from https://github.com/GhostPack/Seatbelt
 Pure, unmodified SharPersist EXE version v1.0.1. Tried compiling source code but ran into plenty of issues.  
 Taken from https://github.com/mandiant/SharPersist/releases/tag/v1.0.1   
 
-```SharPersist -t schtaskbackdoor -c "C:\Windows\System32\cmd.exe" -a "/c calc.exe" -n "NAME_OF_SCHEDULED_TASK" -m add```  
-```SharPersist -t startupfolder -c "C:\Windows\System32\cmd.exe" -a "/c calc.exe" -f "Some File" -m add```
+``SharPersist -t schtaskbackdoor -c "C:\Windows\System32\cmd.exe" -a "/c calc.exe" -n "NAME_OF_SCHEDULED_TASK" -m add``  
+``SharPersist -t startupfolder -c "C:\Windows\System32\cmd.exe" -a "/c calc.exe" -f "Some File" -m add``
 
 ## SharpUp
 PowerUp.ps1 in C# format. EXE compiled, unzip and you'll immediately see SharpUp.exe.  

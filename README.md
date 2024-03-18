@@ -30,7 +30,7 @@ Taken from https://github.com/trustedsec/CS-Remote-OPs-BOF
 Rubeus EXE compiled, unzip and you'll immediately see Rubeus.exe.  
 Taken from https://github.com/GhostPack/Rubeus
 
-## Rubeus in BOF
+## Kerbeus (Rubeus in BOF Form)
 Rubeus in BOF format.  
 Taken from https://github.com/RalfHacker/Kerbeus-BOF
 
@@ -43,8 +43,25 @@ No files here. Install using python command "pip3 install certipy-ad"
 Taken from https://github.com/ly4k/Certipy
 
 ## Certify
-Couldn't compile, missing Nuget dependency?  
+Certify EXE compiled, unzip and you'll immediately see Certify.exe  
 Taken from https://github.com/GhostPack/Certify
+
+## SharpUp
+PowerUp.ps1 in C# format. EXE compiled, unzip and you'll immediately see SharpUp.exe.  
+Taken from https://github.com/GhostPack/SharpUp
+
+## Mimikatz
+Pure, unmodified mimikatz version 2.2.0-20220919. Tried compiling source code but ran into plenty of issues.  
+Taken from https://github.com/gentilkiwi/mimikatz/releases
+
+## SharPersist
+Pure, unmodified SharPersist EXE version v1.0.1. Tried compiling source code but ran into plenty of issues.  
+Taken from https://github.com/mandiant/SharPersist/releases/tag/v1.0.1
+
+## Snaffler
+Used to identify credentials in an AD environment.
+Snaffler EXE compiled, unzip and you'll immediately see Snaffler.
+Taken from https://github.com/SnaffCon/Snaffler
 
 ## More BOFs
 Refer to URL for more useful BOFs - https://github.com/wsummerhill/C2_RedTeam_CheatSheets/blob/main/CobaltStrike/BOF_Collections.md

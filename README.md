@@ -51,11 +51,16 @@ Taken from https://github.com/GhostPack/Rubeus
 
 ## Seatbelt
 Seatbelt EXE compiled, look for it in "Seatbelt Compiled" folder.  
-Taken from https://github.com/GhostPack/Seatbelt
+Taken from https://github.com/GhostPack/Seatbelt   
+
+```Seatbelt.exe -group=all```
 
 ## SharPersist
 Pure, unmodified SharPersist EXE version v1.0.1. Tried compiling source code but ran into plenty of issues.  
-Taken from https://github.com/mandiant/SharPersist/releases/tag/v1.0.1
+Taken from https://github.com/mandiant/SharPersist/releases/tag/v1.0.1   
+
+```SharPersist -t schtaskbackdoor -c "C:\Windows\System32\cmd.exe" -a "/c calc.exe" -n "NAME_OF_SCHEDULED_TASK" -m add```  
+```SharPersist -t startupfolder -c "C:\Windows\System32\cmd.exe" -a "/c calc.exe" -f "Some File" -m add```
 
 ## SharpUp
 PowerUp.ps1 in C# format. EXE compiled, unzip and you'll immediately see SharpUp.exe.  

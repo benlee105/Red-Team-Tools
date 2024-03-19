@@ -2,7 +2,7 @@
 
 ## AzureHound
 Pure unmodified AzureHound EXE version 2.1.7. Collects information in Azure tenant.  
-I could not get this to work on my personal Azure account, use with caution!  
+**I could not get this to work on my personal Azure account, use with caution!**  
 If MFA is enabled, follow the steps in [this page](https://bloodhound.readthedocs.io/en/latest/data-collection/azurehound.html#dealing-with-multi-factor-auth-and-conditional-access-policies) and hope that it works.  
 View results using BloodHound.  
 Taken from https://github.com/BloodHoundAD/AzureHound/releases  
@@ -10,7 +10,8 @@ Taken from https://github.com/BloodHoundAD/AzureHound/releases
 ``azurehound.exe list -u "Username" -p "Password" -t "Domain name from https://portal.azure.com/#settings/directory page" -o "output.json"``
 
 ## BloodHound
-File is too big for this page. Obtain EXE from [SpecterOps Page](https://github.com/SpecterOps/BloodHound/releases/tag/v5.7.1)
+File is too big for this page.  
+Obtain EXE from [SpecterOps Page](https://github.com/SpecterOps/BloodHound/releases/tag/v5.7.1).  
 If you don't want to install EXE, see "BloodHound Docker" section below.  
 Taken from https://github.com/BloodHoundAD/BloodHound/releases/tag/v4.3.1
 

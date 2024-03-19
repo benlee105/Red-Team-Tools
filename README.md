@@ -42,7 +42,7 @@ Taken from https://github.com/trustedsec/CS-Situational-Awareness-BOF
 
 ## Certify
 Certify EXE compiled, unzip and you'll immediately see Certify.exe  
-If you're looking for Certipy, use python command "pip3 install certipy-ad" instead  
+**If you're looking for Certipy, use python command "pip3 install certipy-ad" instead**  
 Taken from https://github.com/GhostPack/Certify
 Taken from https://github.com/ly4k/Certipy
 
@@ -51,7 +51,7 @@ Pure, unmodified mimikatz version 2.2.0-20220919. Tried compiling source code bu
 Taken from https://github.com/gentilkiwi/mimikatz/releases
 
 ## Nmap
-EXE installer for nmap on Windows. Self explanatory!
+EXE installer for nmap on Windows. Self explanatory!  
 Taken from https://nmap.org/download.html
 
 ## Winpeas in PEASS-NG

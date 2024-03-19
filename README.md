@@ -2,6 +2,8 @@
 
 ## AzureHound
 Pure unmodified AzureHound EXE version 2.1.7. Collects information in Azure tenant.  
+Should work smoothly if MFA is not enabled for the Azure account.  
+If MFA is enabled, follow the steps in https://bloodhound.readthedocs.io/en/latest/data-collection/azurehound.html#dealing-with-multi-factor-auth-and-conditional-access-policies   
 View results using BloodHound.  
 Taken from https://github.com/BloodHoundAD/AzureHound/releases
 

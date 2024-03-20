@@ -52,6 +52,7 @@ Taken from https://github.com/ly4k/Certipy
 ## Mimikatz
 Pure, unmodified mimikatz version 2.2.0-20220919. Tried compiling source code but ran into plenty of issues.  
 Taken from https://github.com/gentilkiwi/mimikatz/releases
+- Cheatsheet here https://gist.github.com/insi2304/484a4e92941b437bad961fcacda82d49  
 
 ## Nmap
 EXE installer for nmap on Windows. Self explanatory!  
@@ -71,10 +72,12 @@ PowerView is in Recon folder.
 ## PowerUp or PowerView in Local
 In case you need to run PowerUp.ps1 or PowerView.ps1 on a local machine  
 You need to bypass AV, execution policy and AMSI.  
-1) Bypass AV by modifying the scripts till no detection, or disable AV  
+1) Bypass AV by modifying the scripts till no detection, set an exception for C:\ in AV, or disable AV  
 2) Bypass execution policy with powershell -ep bypass, or other methods [here](https://www.netspi.com/blog/technical/network-penetration-testing/15-ways-to-bypass-the-powershell-execution-policy/)  
 3) Bypass or disable AMSI via method [here](https://rootrecipe.medium.com/advanced-powerup-ps1-usage-ad0f6d713a9f) or via other methods [here](https://gist.github.com/D3Ext/bf57673644ba08e729f65892e0dae6c4)  
 
+- PowerUp Cheatsheet [here](https://viperone.gitbook.io/pentest-everything/resources/cheat-sheets/powerup)
+- PowerView Cheatshee [here](https://book.hacktricks.xyz/windows-hardening/basic-powershell-for-pentesters/powerview)
 
 ## Rubeus
 Rubeus EXE compiled, unzip and you'll immediately see Rubeus.exe.  
@@ -84,14 +87,14 @@ Taken from https://github.com/GhostPack/Rubeus
 Seatbelt EXE compiled, look for it in "Seatbelt Compiled" folder.  
 Taken from https://github.com/GhostPack/Seatbelt   
 
-``Seatbelt.exe -group=all``
+``Seatbelt.exe -group=all -full``
 
 ## SharPersist
 Pure, unmodified SharPersist EXE version v1.0.1. Tried compiling source code but ran into plenty of issues.  
 Taken from https://github.com/mandiant/SharPersist/releases/tag/v1.0.1   
 
 ``SharPersist.exe -t schtaskbackdoor -c "C:\Windows\System32\cmd.exe" -a "/c calc.exe" -n "NAME_OF_SCHEDULED_TASK" -m add``  
-``SharPersist.exe -t startupfolder -c "C:\Windows\System32\cmd.exe" -a "/c calc.exe" -f "Some File" -m add``
+``SharPersist.exe -t startupfolder -c "C:\Windows\System32\cmd.exe" -a "/c calc.exe" -f "NAME_OF_LNK_FILE" -m add``
 
 ## SharpHound
 Pure, unmodified SharpHound EXE version v2.3.2.  

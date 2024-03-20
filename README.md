@@ -68,6 +68,14 @@ PowerView is in Recon folder.
 ``To load script into Cobalt Strike, use powershell-import xx.ps1``  
 ``To load script into powershell, use . .\xx.ps1``
 
+## PowerUp or PowerView in Local
+In case you need to run PowerUp.ps1 or PowerView.ps1 on a local machine  
+You need to bypass AV, execution policy and AMSI.  
+1) Bypass AV by modifying the scripts till no detection, or disable AV  
+2) Bypass execution policy with powershell -ep bypass, or other methods [here](https://www.netspi.com/blog/technical/network-penetration-testing/15-ways-to-bypass-the-powershell-execution-policy/)  
+3) Bypass or disable AMSI via method [here](https://rootrecipe.medium.com/advanced-powerup-ps1-usage-ad0f6d713a9f) or via other methods [here](https://gist.github.com/D3Ext/bf57673644ba08e729f65892e0dae6c4)  
+
+
 ## Rubeus
 Rubeus EXE compiled, unzip and you'll immediately see Rubeus.exe.  
 Taken from https://github.com/GhostPack/Rubeus

@@ -118,3 +118,15 @@ Taken from https://github.com/SnaffCon/Snaffler
 
 ## More BOFs
 Refer to URL for more useful BOFs - https://github.com/wsummerhill/C2_RedTeam_CheatSheets/blob/main/CobaltStrike/BOF_Collections.md
+
+## Others Folder - Elevate System Trusted BOF
+BOF tool used to escalate privilege.  
+Taken from https://github.com/Mr-Un1k0d3r/Elevate-System-Trusted-BOF
+
+## Others Folder - MiddleOut
+EXE used to compress files.
+https://github.com/RedSiege/MiddleOut
+
+## Others Folder - Sharpkatz
+Certain Mimikatz functionality converted into C#
+Taken from https://github.com/b4rtik/SharpKatz

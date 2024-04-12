@@ -1,6 +1,6 @@
 # Red Team Tools
 
-## AzureHound
+## AMSI Bypass
 Contains a powershell AMSI bypass method.
 
 ## AzureHound

@@ -1,6 +1,9 @@
 # Red Team Tools
 
 ## AzureHound
+Contains a powershell AMSI bypass method.
+
+## AzureHound
 Pure unmodified AzureHound EXE version 2.1.7. Collects information in Azure tenant.  
 **I could not get this to work on my personal Azure account, use with caution!**  
 If MFA is enabled, follow the steps in [this page](https://bloodhound.readthedocs.io/en/latest/data-collection/azurehound.html#dealing-with-multi-factor-auth-and-conditional-access-policies) and hope that it works.  

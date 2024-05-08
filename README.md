@@ -131,3 +131,16 @@ https://github.com/RedSiege/MiddleOut
 ## Others Folder - Sharpkatz
 Certain Mimikatz functionality converted into C#
 Taken from https://github.com/b4rtik/SharpKatz
+
+## Tips
+
+### To compile SharPersist from source
+1) Use Visual Studio 2022
+2) Download SharPersist from https://github.com/mandiant/SharPersist and launch it in Visual Studio 2022
+3) When prompted to "upgrade" to .NET Framework 4.8, go ahead with it
+4) In Visual Studio, go to Tools > NuGet Package Manager > Package Manager Settings
+5) Go to NuGet Package Manager > Package Sources, Add package source with URL https://api.nuget.org/v3/index.json
+6) Go to Tools NuGet Package Manager > Manage NuGet Packages for Solution...
+7) At top left, click Browse. Search for Costura.Fody, install version 3.3.3.
+8) Then search for TaskScheduler, install version 2.8.11
+9) Then compile the solution.
